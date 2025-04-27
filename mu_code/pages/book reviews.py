@@ -7,8 +7,8 @@ st.set_page_config(layout="wide")
 
 # Carrengando os arquivos
 
-df_reviews = pd.read_csv("C:\Users\Graziele Rodrigues\OneDrive\Documentos\MeusProjetos\Projetos-Python\Projeto web básico\datasets\customer reviews.csv")
-df_top100_books = pd.read_csv("C:\Users\Graziele Rodrigues\OneDrive\Documentos\MeusProjetos\Projetos-Python\Projeto web básico\datasets\Top-100 Trending Books.csv")
+df_reviews = pd.read_csv("datasets\customer reviews.csv")
+df_top100_books = pd.read_csv("datasets\Top-100 Trending Books.csv")
 
 # Criando uma lista de seleção de nome dos livros
 # Método unique() trará todos os nomes sem repetição
